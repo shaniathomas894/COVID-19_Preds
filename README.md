@@ -1,5 +1,6 @@
 # TEAM MAGIC 8 BALL
 
+
 ---
 ## Team Members
 - [Shania Thomas](https://www.linkedin.com/in/shania-thomas-atx22/)
@@ -34,20 +35,20 @@ The Federal Department of Health has put together a team of data scientists to h
 ##### 1.1) Introducing Variables and Parameters
 
 SIR models provide a theoretical framework for the time rates of change of three populations in an outbreak of a contageous disease. The populations in the model are given the shorthand 
-- *S* for the number of people in the population that are suscptable to getting infected
-- *I* for the number of people that are infected
-- *R* for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
-The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with *a, b, c,* and $/alpha$ as arbitary numbers. 
+- $S$ for the number of people in the population that are suscptable to getting infected
+- $I$ for the number of people that are infected
+- $R$ for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
+The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with $a,~b,~c,$ and $\alpha$ as arbitary numbers. 
 
-- *a* is called **transmissability**
-- *b* is called **recovery rate**
-- *c* is called **deimunization rate**
+- $a$ is called **transmissability**
+- $b$ is called **recovery rate**
+- $c$ is called **deimunization rate**
 
 <img src="code/images/full_SIR.png" alt="drawing" width="400"/>
 
 ##### 1.2) Simple SIR 
 As a simple example of an SIR model, consider the case where 
-- recovered people never become susceptable, which corresponds to the value *c=0*,
+- recovered people never become susceptable, which corresponds to the value $c=0$,
 - no vaccine exists, so susceptable people never become recovered without first becoming infected, which corresponds to $\alpha = 0$. 
 - The total population is 1 in units of millions (and, to further simplify, is constant). 
 
@@ -55,24 +56,30 @@ As a simple example of an SIR model, consider the case where
 
 Then the time rates of change of the three categories are descibed by the non-linear ordinary differential equaiton
 
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
 = 
 \left( \begin{array}{c}-aSI \\ aSI -bI \\ bI   \end{array} \right) 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%5C%5C%20aSI%20-bI%20%5C%5C%20bI%20%20%20%5Cend%7Barray%7D%20%5Cright)%20"></div>
 
 Because the sum of the number of people in the three categries is, in our simplifying assumption, 1 million,
-$$
+<!-- $$
 1 =S+I+R \\
 \Leftrightarrow 
 R = 1-S-I.
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=1%20%3DS%2BI%2BR%20%5C%5C%0A%5CLeftrightarrow%20%0AR%20%3D%201-S-I."></div>
 
 
 Substituting this into the differential equation and removing the third row, $R$ since that number can be recovered from $S$ and $I$, yields 
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
 = 
 \left( \begin{array}{c}-aSI \\ aSI -bI    \end{array} \right) 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%5C%5C%20aSI%20-bI%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20"></div>
 
 ##### 1.2.1) Equilibrium Solutions to Simple Model
 A common cenceptual checkpoint is to find the so called 'equilibrium solutions' to the differential equation. These are the constant functions that are solutions. Constant means that time rate of change is zero, and thus the equilibrium solutions are the solutions to 
