@@ -1,6 +1,6 @@
 # TEAM MAGIC 8 BALL
 
-
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 ---
 ## Team Members
 - [Shania Thomas](https://www.linkedin.com/in/shania-thomas-atx22/)
@@ -35,14 +35,14 @@ The Federal Department of Health has put together a team of data scientists to h
 ##### 1.1) Introducing Variables and Parameters
 
 SIR models provide a theoretical framework for the time rates of change of three populations in an outbreak of a contageous disease. The populations in the model are given the shorthand 
-- $S$ for the number of people in the population that are suscptable to getting infected
-- $I$ for the number of people that are infected
-- $R$ for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
-The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with $a,~b,~c,$ and $\alpha$ as arbitary numbers. 
+- *S* for the number of people in the population that are suscptable to getting infected
+- *I* for the number of people that are infected
+- *R* for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
+The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with *a,~b,~c,* and *\alpha* as arbitary numbers. 
 
-- $a$ is called **transmissability**
-- $b$ is called **recovery rate**
-- $c$ is called **deimunization rate**
+- *a* is called **transmissability**
+- *b* is called **recovery rate**
+- *c* is called **deimunization rate**
 
 <img src="code/images/full_SIR.png" alt="drawing" width="400"/>
 
