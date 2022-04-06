@@ -37,7 +37,7 @@ SIR models provide a theoretical framework for the time rates of change of three
 - *S* for the number of people in the population that are suscptable to getting infected
 - *I* for the number of people that are infected
 - *R* for the people that are recovered from the disease (and are therefore imune, possibly only temporarily)
-The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with *a,~b,~c,* and *\alpha* as arbitary numbers. 
+The three populations exchange members as time goes on as shown in the diagram below. For example, suscepable people become infected. The following directed graph shows the exchanges in the model with *a, b, c,* and $/alpha$ as arbitary numbers. 
 
 - *a* is called **transmissability**
 - *b* is called **recovery rate**
@@ -47,7 +47,7 @@ The three populations exchange members as time goes on as shown in the diagram b
 
 ##### 1.2) Simple SIR 
 As a simple example of an SIR model, consider the case where 
-- recovered people never become susceptable, which corresponds to the value $c=0$,
+- recovered people never become susceptable, which corresponds to the value *c=0*,
 - no vaccine exists, so susceptable people never become recovered without first becoming infected, which corresponds to $\alpha = 0$. 
 - The total population is 1 in units of millions (and, to further simplify, is constant). 
 
