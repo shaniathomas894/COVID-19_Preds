@@ -1,6 +1,5 @@
 # TEAM MAGIC 8 BALL
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 ---
 ## Team Members
 - [Shania Thomas](https://www.linkedin.com/in/shania-thomas-atx22/)
