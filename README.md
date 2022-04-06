@@ -83,7 +83,7 @@ $$ -->
 
 ##### 1.2.1) Equilibrium Solutions to Simple Model
 A common cenceptual checkpoint is to find the so called 'equilibrium solutions' to the differential equation. These are the constant functions that are solutions. Constant means that time rate of change is zero, and thus the equilibrium solutions are the solutions to 
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
 = \left( \begin{array}{c}0 \\ 0    \end{array} \right) \\
 \Leftrightarrow 
 \left( \begin{array}{c}-aSI \\ aSI -bI    \end{array} \right) 
@@ -92,40 +92,50 @@ $$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right)
 \left\{ \begin{array}{c}-aSI =0 \\ \rm{and}\\ aSI -bI =0    \end{array} \right\} 
 \Leftrightarrow 
 \left\{ \begin{array}{c}S =0 \rm{~OR~} I=0 \\ \rm{and}\\ aSI = bI     \end{array} \right\} 
-$$
+$$ --> 
 
-$$
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D0%20%5C%5C%200%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%5C%5C%0A%5CLeftrightarrow%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%5C%5C%20aSI%20-bI%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%0A%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D0%20%5C%5C%200%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%5C%5C%0A%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20-bI%20%3D0%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20%0A%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7DS%20%3D0%20%5Crm%7B~OR~%7D%20I%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20%3D%20bI%20%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20"></div>
+
+<!-- $$
 \Leftrightarrow 
 \left\{ \begin{array}{c}S =0 \rm{~and~} I=0 \\ \rm{OR}\\ I=0 \rm{~and~} 0 = 0     \end{array} \right\} 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7DS%20%3D0%20%5Crm%7B~and~%7D%20I%3D0%20%5C%5C%20%5Crm%7BOR%7D%5C%5C%20I%3D0%20%5Crm%7B~and~%7D%200%20%3D%200%20%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20"></div>
 
 The first conjunction of equations describes the equilibrium solution 
 
-$$
+<!-- $$
 \left\{ \begin{array}{c}S(t) \\ I(t) \\ R(t) \end{array} \right\} 
 = \left\{ \begin{array}{c} 0  \\ 0 \\  1 \end{array} \right\},
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7DS(t)%20%5C%5C%20I(t)%20%5C%5C%20R(t)%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20%0A%3D%20%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7D%200%20%20%5C%5C%200%20%5C%5C%20%201%20%5Cend%7Barray%7D%20%5Cright%5C%7D%2C"></div>
 
 an equilibrium state in which all 1 million people in the population have recovered and will never be susceptable or infected again. 
 
 The second conjunction of equations describes the equilibrium solutions of the form 
 
-$$
+<!-- $$
 \left( \begin{array}{c}S(t) \\ I(t) \\ R(t) \end{array} \right) 
 = \left( \begin{array}{c} S_0  \\ 0 \\  1-S_0 \end{array} \right),
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7DS(t)%20%5C%5C%20I(t)%20%5C%5C%20R(t)%20%5Cend%7Barray%7D%20%5Cright)%20%0A%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D%20S_0%20%20%5C%5C%200%20%5C%5C%20%201-S_0%20%5Cend%7Barray%7D%20%5Cright)%2C"></div>
 
 which are equilibrium states in which some number $S_0$ of people are susceptable, some recovered, but since $0$ people are infected these numbers do not change in time. 
 
 ##### 1.2.2) Conditions of decrease in infections: Herd Immunity
 In this simplified model, the condition for the number of infections to be decreasing in time 
-$$
+<!-- $$
 \frac{d}{dt} I <0\\
 \Leftrightarrow
 aSI-bI <0\\
 \Leftrightarrow
 S < \frac{b}{a}.
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bd%7D%7Bdt%7D%20I%20%3C0%5C%5C%0A%5CLeftrightarrow%0AaSI-bI%20%3C0%5C%5C%0A%5CLeftrightarrow%0AS%20%3C%20%5Cfrac%7Bb%7D%7Ba%7D."></div>
 That is, the disease begins to die out when less than $b/a$ people in the population remain susceptable. This is the point known as 'herd immunity'.
 
 In the following sectoins we will find the expression for heard immunity in the more complicated cases of the SIR model. 
@@ -133,43 +143,55 @@ In the following sectoins we will find the expression for heard immunity in the 
 ##### 1.3) SIR with no vaccine
 If the only SIR model parameter (from $a,b,c,\alpha$) set to zero is the vaccination rate $\alpha$ then the modeling differntial equation becomes 
 
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
 = 
 \left( \begin{array}{c}-aSI+cR \\ aSI -bI \\ bI-cR   \end{array} \right) 
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%2BcR%20%5C%5C%20aSI%20-bI%20%5C%5C%20bI-cR%20%20%20%5Cend%7Barray%7D%20%5Cright)%20"></div>
 
 and again the her immunity is the condition $\frac{d}{dt} I < 0 \Leftrightarrow S <\frac{b}{a}$.
 <img src="code/images/novax_SIR.png" alt="drawing" width="300"/>
 
 The question obecomes how to approach this sufficiently small value of $S$. The first component of the equation above reads
-$$
+<!-- $$
 \frac{d}{dt} S = -aSI +CR
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bd%7D%7Bdt%7D%20S%20%3D%20-aSI%20%2BCR"></div>
 and we see a term desribing decreases $-aSI$ and a term describing increase. To head toward herd iimmunity, we want the decreasing term to win.  
 
 Since the total population $p=S+I+R \Leftrightarrow R=p-S-I$, the rate of change of $S$ is also 
-$$
+<!-- $$
 \frac{d}{dt} S = -aSI +C(p-I-S) =  -cS -(aS+c)I +cp
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bd%7D%7Bdt%7D%20S%20%3D%20-aSI%20%2BC(p-I-S)%20%3D%20%20-cS%20-(aS%2Bc)I%20%2Bcp"></div>
 In the last expression we see a term describing increase ($-cp$) and two terms describing decrease ($-cS -(aS+c)I$). What can vaccines do to hasten heard immunity? 
 
 ##### 1.4) SIR With Vaccine
-<img src="code/images/full_SIR.png" alt="drawing" width="400"/>
+<div align="center"><img src="code/images/full_SIR.png" alt="drawing" width="400"/>
 
 If a vaccine is administered to $\alpha$ percent of the susceptable population each unit of time (e.g. ten percent every week) the the differential equation describing the populations becomes
-$$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
+<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I \\ R  \end{array} \right) 
 = 
 \left( \begin{array}{c}-\alpha S-aSI+cR \\ aSI -bI \\ bI-cR   \end{array} \right) , 
-$$
+$$ --> 
+</div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-%5Calpha%20S-aSI%2BcR%20%5C%5C%20aSI%20-bI%20%5C%5C%20bI-cR%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%2C%20"></div>
+
 the condition for herd immunity remains 
-$\frac{d}{dt} I < 0 \Leftrightarrow S <\frac{b}{a}$
-and, again impositing the constant population condition $R=p-S-I$, the rateof change of $S$ is 
-$$
+<!-- $\frac{d}{dt} I < 0 \Leftrightarrow S <\frac{b}{a}$ --> <div align="center"><img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bd%7D%7Bdt%7D%20I%20%3C%200%20%5CLeftrightarrow%20S%20%3C%5Cfrac%7Bb%7D%7Ba%7D">
+and, again impositing the constant population condition <!-- $R=p-S-I$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=R%3Dp-S-I">, the rateof change of $S$ is 
+<!-- $$
 \frac{d}{dt} S =   -(c+\alpha)S -(aS+c)I +cp. 
-$$
+$$ --> 
+
+<img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7Bd%7D%7Bdt%7D%20S%20%3D%20%20%20-(c%2B%5Calpha)S%20-(aS%2Bc)I%20%2Bcp.%20"></div> 
+
 One sees that  one of the terms desribing a decrease in the susceptable population now desrcibes a more rapid decrease. 
 
-### $-(c+\alpha)S$ has replaced $-cS$ . 
+### <!-- $-(c+\alpha)S$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=-(c%2B%5Calpha)S"> has replaced <!-- $-cS$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=-cS">. 
 
 In this way, vaccination hastens the approach toward herd imunity
 
@@ -177,14 +199,18 @@ In this way, vaccination hastens the approach toward herd imunity
 ##### 2.1) Toward Realistic $b$
 
 In SIR models, the term $-bI$ in the differential equation
-$$
+<!-- $$
 \frac{dI}{dt} =  aSI - bI,
-$$ 
+$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7BdI%7D%7Bdt%7D%20%3D%20%20aSI%20-%20bI%2C"></div> 
 describes the rate at which infected people move into the recovered compartment. 
 
 It is common knowledge that a case of COVID lasts about two weeks, or 14 days. 
 For this reason we use 
-$$b =\frac{1}{14{\rm days}}.$$
+<!-- $$b =\frac{1}{14{\rm days}}.$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
 
 As an example of why this is an intuitive value,
 if 
