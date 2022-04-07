@@ -214,9 +214,11 @@ For this reason we use
 
 As an example of why this is an intuitive value,
 if 
-$b =\frac{1}{14{\rm days}} \rm{~ and~} I=14{\rm people}$
+<br />
+<!-- $b =\frac{1}{14{\rm days}} \rm{~ and~} I=14{\rm people}$ --> <div align="center"><img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=b%20%3D%5Cfrac%7B1%7D%7B14%7B%5Crm%20days%7D%7D%20%5Crm%7B~%20and~%7D%20I%3D14%7B%5Crm%20people%7D"></div>
+<br />
 then the number of people who recover in a day is 
-$bI = 1 \frac{\rm person}{\rm day}.$
+<!-- $bI = 1 \frac{\rm person}{\rm day}.$ --> <div align="center"><img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=bI%20%3D%201%20%5Cfrac%7B%5Crm%20person%7D%7B%5Crm%20day%7D."></div>
 
 ##### 2.2) Toward realistic $a$
 ##### 2.2.1) Introducing Reproductive Number Through Exponential Models 
@@ -232,10 +234,14 @@ In an exponential growth model of disease transmission each infected person, ove
 To make this idea quantitative, let $b$ be the recovery rate (so $1/b$ is the durration of disease) and number $r_0$ be the reproductive number of a disease. 
 The differential below above is then interpreted as "each day each infected person infects $r_0 b$ other people."
 
-$$\frac{dI}{dt} = r_0 b  I.$$
+<!-- $$\frac{dI}{dt} = r_0 b  I.$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
 
 This is called an exponential model because the solutions ($I$ as a function of time $t$) are the exponential functions of the form
-$$I(t) = I_0(r_0b)^t$$
+<!-- $$I(t) = I_0(r_0b)^t$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
 with $I(0)$ the number of infections when $t=0$. 
 Changing base to Euler's number ($e$) the functions are
 $$I(t) = I_0e^{\ln(r_0 b)t}.$$
