@@ -83,10 +83,10 @@ $$ -->
 
 ##### 1.2.1) Equilibrium Solutions to Simple Model
 A common cenceptual checkpoint is to find the so called 'equilibrium solutions' to the differential equation. These are the constant functions that are solutions. Constant means that time rate of change is zero, and thus the equilibrium solutions are the solutions to 
-<!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
-= \left( \begin{array}{c}0 \\ 0    \end{array} \right) $$ --> 
+$$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
+= \left( \begin{array}{c}0 \\ 0    \end{array} \right) $$ 
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+<!-- <div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div> -->
 <!-- $$\Leftrightarrow 
 \left( \begin{array}{c}-aSI \\ aSI -bI    \end{array} \right) 
 = \left( \begin{array}{c}0 \\ 0    \end{array} \right)$$ --> 
