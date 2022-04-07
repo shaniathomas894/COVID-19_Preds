@@ -84,17 +84,23 @@ $$ -->
 ##### 1.2.1) Equilibrium Solutions to Simple Model
 A common cenceptual checkpoint is to find the so called 'equilibrium solutions' to the differential equation. These are the constant functions that are solutions. Constant means that time rate of change is zero, and thus the equilibrium solutions are the solutions to 
 <!-- $$\frac{d}{dt}\left( \begin{array}{c}S \\ I  \end{array} \right) 
-= \left( \begin{array}{c}0 \\ 0    \end{array} \right) \\
-\Leftrightarrow 
+= \left( \begin{array}{c}0 \\ 0    \end{array} \right) $$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math="></div>
+<!-- $$\Leftrightarrow 
 \left( \begin{array}{c}-aSI \\ aSI -bI    \end{array} \right) 
-= \left( \begin{array}{c}0 \\ 0    \end{array} \right) \\
-\Leftrightarrow 
+= \left( \begin{array}{c}0 \\ 0    \end{array} \right)$$ --> 
+
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%5C%5C%20aSI%20-bI%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20"></div>
+
+<!-- $$\Leftrightarrow 
 \left\{ \begin{array}{c}-aSI =0 \\ \rm{and}\\ aSI -bI =0    \end{array} \right\} 
 \Leftrightarrow 
 \left\{ \begin{array}{c}S =0 \rm{~OR~} I=0 \\ \rm{and}\\ aSI = bI     \end{array} \right\} 
 $$ --> 
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D0%20%5C%5C%200%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%5C%5C%0A%5CLeftrightarrow%20%0A%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%5C%5C%20aSI%20-bI%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%0A%3D%20%5Cleft(%20%5Cbegin%7Barray%7D%7Bc%7D0%20%5C%5C%200%20%20%20%20%5Cend%7Barray%7D%20%5Cright)%20%5C%5C%0A%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20-bI%20%3D0%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20%0A%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7DS%20%3D0%20%5Crm%7B~OR~%7D%20I%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20%3D%20bI%20%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20"></div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7D-aSI%20%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20-bI%20%3D0%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20%0A%5CLeftrightarrow%20%0A%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bc%7DS%20%3D0%20%5Crm%7B~OR~%7D%20I%3D0%20%5C%5C%20%5Crm%7Band%7D%5C%5C%20aSI%20%3D%20bI%20%20%20%20%20%5Cend%7Barray%7D%20%5Cright%5C%7D%20"></div> 
+
 
 <!-- $$
 \Leftrightarrow 
@@ -191,7 +197,7 @@ $$ -->
 
 One sees that  one of the terms desribing a decrease in the susceptable population now desrcibes a more rapid decrease. 
 
-### <!-- $-(c+\alpha)S$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=-(c%2B%5Calpha)S"> has replaced <!-- $-cS$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=-cS">. 
+### $-(c+\alpha)S$ has replaced $-cS$ . 
 
 In this way, vaccination hastens the approach toward herd imunity
 
